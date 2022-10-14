@@ -2,17 +2,14 @@
 /**
  * main - Entry point
  *
- * char: 'the program's variable
- *
  * puts: 'calling the variable'
  *
  * Return: Always zero (success)
  */
 int main(void)
 {
-	char Myfirst[] = "'Programming is like building a multilingual puzzle";
 
-	puts(Myfirst);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
