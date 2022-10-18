@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * print_alphabet - Entry point
+ *
+ * Description: prints all lowercase alphabet from a-z
+ */
+
+void print_alphabet(void)
+{
+	char lower;
+
+	for (lower = 'a'; lower <= 'z'; lower++)
+		_putchar(lower);
+
+	_putchar('\n');
+}
