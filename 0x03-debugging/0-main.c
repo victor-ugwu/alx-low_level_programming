@@ -1,15 +1,16 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - Checks for negative and positive numbers
- * 
+ *
  * Return: zero
  */
 
 int main(void)
 {
-	positive_or_negative(0);
+	int i = 0;
+
+	positive_or_negative(i);
 
 	return (0);
 }
